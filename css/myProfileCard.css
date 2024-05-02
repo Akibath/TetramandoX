@@ -1,0 +1,206 @@
+.profileCard{
+	height:315px;
+	width:838px;
+	background:#fff;
+	border:1px solid #d3d6db;
+	border-top:none;
+	padding:5px;
+}
+.profileCard .coverPic{
+	width:838px;
+	height:315px;
+}
+.profileCard:hover .changeCoverPic{
+	display:block;
+}
+.coverPicLinear{
+	background-image: url('http://localhost/TetramandoX/img/profile/linearShadow.png');
+	height:100px;
+	margin-top:-100px;
+	opacity: 0.98;
+}
+.changeCoverPic{
+	display:none;
+	position:absolute;
+	margin-top:-300px;
+	left:905px;
+}
+.profileCard .profilePic{
+	margin-top:-128px;
+	margin-left:15px;
+	width:150px;
+	height:160px;
+	position:relative;
+	background:#fff;
+	border:1px solid #d3d6db;
+	border-radius:4px 4px 0 4px;
+	padding:4px;
+	/opacity: 0.99;
+}
+.changeProfilePic{
+	display:none;
+	position:absolute;
+	margin-top:-45px;
+	left:130px;
+}
+.profileCard:hover .changeProfilePic{
+	display:block;
+}
+.profileCard .personName{
+	margin-left:190px;
+	font:bold 24px Tahoma;
+	text-shadow:1px 1px rgba(0, 0, 0, 0.6);
+	margin-top:-94px;
+	overflow:hidden;
+	height:30px;
+	width:620px;
+	color:#fff;
+	opacity:0.99;
+	cursor:default !important;
+}
+.profileCard .personName.split{
+	width:400px;
+}
+.subProfiles{
+	margin-left:174px;
+	height:40px;
+	width:668px;
+	border:1px solid #d3d6db;
+	background:#fff;
+	border-top:none;
+	/position:relative;
+	margin-top:19px;
+}
+.subProfiles ul{
+	/float:right;
+	list-style: none;
+}
+.subProfiles ul a li{
+	float:left;
+	padding: 10px 39px;
+	font:bold 15px corbel;
+	border-right:1px solid #e9eaed;
+	color:#666;
+	background:#fff;
+}
+.subProfiles.page ul a li{
+	padding: 10px 38px;
+}
+.subProfiles ul a li:hover{
+	color:#0370ea;
+	text-decoration:underline;
+}
+.subProfiles ul a li.active{
+	color:#0370ea;
+	cursor:default;
+	text-decoration:none;
+	background:#f9f9f9;
+}
+.subProfiles ul li.settingsGear{
+	padding:8px 22px;
+	float:right;
+	border:none;
+}
+.subProfiles ul li.settingsGear img{
+	height:19px;
+	width:19px;
+}
+.subProfiles .dropdownMenu{
+	display:none;
+	position:absolute;
+	border:1px solid #C6C7CA;
+	margin:15px -132px 0;
+	border-radius:5px;
+	width:156px;
+	background:#fff;
+	font-size:12px;
+	line-height:22px;
+	font-family:arial;
+	color:#141823;
+	box-shadow:0px 3px 8px rgba(0, 0, 0, 0.3);
+}
+.subProfiles .dropdownMenu ul{
+	padding:5px 0;
+}
+.subProfiles .dropdownMenu ul li{
+	color:#333;
+	cursor:pointer;
+	padding:3px 20px;
+	border:none;
+}
+.subProfiles .dropdownMenu ul li:hover{
+	background:#0370ea;
+	color:#fff;
+}
+.subProfiles .dropdownMenu:before{
+	content:'';
+	position:absolute;
+	border-style:solid;
+	border-color:transparent transparent #ccc transparent;
+	border-width:12px;
+	margin-left:129px;
+	margin-top:-24px;
+}
+.subProfiles .dropdownMenu:after{
+	content:'';
+	position:absolute;
+	margin-left:130px;
+	margin-top:-88px;
+	border-style: solid;
+	border-color: transparent transparent #fff transparent;
+	border-width:11px;
+}
+.profileCardButtons{
+	margin-right:20px;
+	height:25px;
+	margin-top:-29px;
+	/width:150px;
+	position: relative;
+	/width:220px;
+	float:right;
+	//background:#f00;
+}
+.profileCardButtons .settingsGear{
+	float:right;
+	margin-left:10px;
+}
+.profileCardButtons .settingsGear img{
+	margin-top:1px;
+}
+.profileCardButtons button{
+	/display:none;
+	min-width:100px;
+	font:bold 12px Corbel;
+	padding:2px 10px;
+	line-height:20px;
+	color:#555;
+	border:1px solid transparent;
+	background-color:#f5f5f5;
+	background-image:-moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image:-webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image:-o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image:linear-gradient(to bottom, #ffffff, #e6e6e6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	text-shadow:0 1px 1px rgba(255, 255, 255, 0.75);
+	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	cursor:pointer;
+	outline:none;
+}
+.profileCardButtons button:active{
+	background-color:#f5f5f5;
+	background-image:-moz-linear-gradient(top, #e6e6e6, #fff);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#e6e6e6), to(#fff));
+	background-image:-webkit-linear-gradient(top, #e6e6e6, #fff);
+	background-image:-o-linear-gradient(top, #e6e6e6, #fff);
+	background-image:linear-gradient(to bottom, #e6e6e6, #fff);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe6e6e6', endColorstr='#ffffffff', GradientType=0);
+}
+.profileCardButtons #friends{
+	cursor:default;
+}

@@ -1,0 +1,144 @@
+*{
+	margin:0px;
+	padding:0px;
+	outline:0px;
+	//line-height:10px;
+}
+body{
+	/height:100%;
+	background:#E9EAED;
+}
+.profileBody{
+	/position:relative;
+	/background:#f00;
+	//border:1px solid #c4cde0;
+	width:850px;
+	margin-left:100px;
+	margin-top:20px;
+}
+.profileContent{
+	margin-top:20px;
+	margin-bottom:35px;
+	/background:#fff;
+	display:inline-block;
+	width:850px;
+}
+.profilePanes{
+	float:left;
+	width:320px;
+}
+.profilePane:first-child{
+	margin-top:0px;
+}
+.profilePane{
+	margin-top:10px;
+	width:320px;
+	background:#fff;
+	border:1px solid #d3d6db;
+	border-bottom:none;
+}
+.profilePane .title{
+	background:#F6F7F8;
+	padding:9px 10px;
+	text-shadow:none;
+	color:#666;
+	font:bold 13px tahoma;
+	border-bottom:1px solid #d3d6db;
+	//letter-spacing:1px;
+}
+.profilePane .title a{
+	color:#666;
+}
+.profilePane .title a:hover{
+	text-decoration:underline;
+}
+.profilePane .title a span{
+	font-weight:normal;
+}
+.profilePane.about{
+	border-bottom:1px solid #d3d6db;
+	cursor:default;
+}
+.profilePane ul li{
+	color:#444;
+	padding:7px 10px;
+	border-bottom:1px solid #d3d6db;
+	font:normal 14px tahoma;
+	word-wrap:break-word;
+}
+.profilePane.photos, .profilePane.friends{
+	border-bottom:1px solid #ccc;
+}
+.profilePane.photos .content, .profilePane.friends .content{
+	padding:10px;
+	max-height:183px;
+}
+.profilePane .noActivity{
+	padding:50px 0;
+	text-align:center;
+	font:bold 18px helvetica;
+	color:#888;
+	cursor:default;background:#fff;
+	/height:40px;
+}
+.profileSideNavContent.friends a img{
+	margin-left:5px;
+	width:85px;
+	height:85px;
+}
+.profilePane.photos img, .profilePane.friends img{
+	width:85px;
+	height:85px;
+	margin-left:5px;
+	border:1px solid #f1f1f1;
+}
+.profileTimeline{
+	float:left;
+	width:500px;
+	margin-left:10px;
+}
+.timelinePostbox{
+	border-radius:5px;
+	background:#f6f6f6;
+	border:1px solid #ccc;
+	margin-bottom:20px;
+	height:140px;
+}
+.postboxTextarea{
+	border-radius:5px;
+	padding:10px 10px;
+	margin:10px 0 0 10px;
+	resize:none;
+	border:1px solid #ddd;
+	font:normal 14px helvetica;
+	padding:10px;
+	height:60px;
+	width:496px;
+	overflow-y: auto;
+	word-wrap:break-word;
+	white-space:pre-wrap;
+}
+.timelinePostButton{
+	float:right;
+	border:1px solid #0370ea;
+	cursor:pointer;
+	background:#0370ea;
+	color:#fff;
+	font:normal 15px tahoma;
+	border-radius:4px;
+	margin-right:10px;
+	margin-top:7px;
+	width:80px;
+	height:30px;
+}
+.noPostsInProfile{
+	border:1px solid #bbb;
+	background:#fff;
+	border-radius:4px;
+}
+.noPostsInProfile p{
+	color:#777;
+	font:bold 17px corbel;
+	padding:20px;
+	text-align:center;
+}

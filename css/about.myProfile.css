@@ -1,0 +1,90 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.profileContent{
+	background:#fff;
+	border-radius:5px;
+	border:1px solid #ccc;
+}
+.profileContent .mainTitle{
+	border-bottom:1px solid #ddd;
+	font:bold 18px helvetica;
+	border-radius:5px 5px 0 0;
+	background:#f9f9f9;
+	color:#666;
+	height:45px;
+	padding-left:20px;
+	cursor:default;
+}
+.profileContent .mainTitle span{
+	line-height:45px;
+}
+.profileTopicPane{
+	background:#fff;
+	margin:10px;
+	display: inline-block;
+	width:800px;
+}
+.profileAboutEachTopic{
+	margin: 20px auto 20px auto;
+	height:200px;
+	width:615px;
+	margin-bottom:50px;
+}
+.profileAboutEachTopic .title{
+	font:bold 14px tahoma;
+	padding:10px 20px;
+	background:#0370ea;
+	color:#fff;
+	border:1px solid #0370ea;
+	border-radius:5px 5px 0 0;
+}
+.profileAboutEachTopic .content{
+	padding:10px;
+	color:#f00;
+	border:1px solid #aaa;
+	background:#fff;
+	border-top:none;
+	min-height:200px;
+	border-radius: 0 0 5px 5px;
+}
+.profileAboutEachTopic ul li:first-child{
+	border-top:1px solid #ccc;
+}
+.profileContent ul{
+	width:80%;
+	margin:0 auto;
+}
+.profileContent ul li.subTitle:first-child{
+	margin-top:0px;
+}
+.profileContent ul li.subTitle{
+	font:bold 16px arial;
+	line-height:40px;
+	margin-top:40px;
+}
+.profileContent ul li .title{
+	color:#777;
+	width:250px;
+	float:left;
+}
+.profileContent ul li .content{
+	color:#222;
+	float:left;
+	margin-left:50px;
+	word-wrap:break-word;
+	width:370px;
+}
+.profileContent ul li{
+	color:#999;
+	font:normal 15px tahoma;
+	border-bottom:1px solid #ccc;
+	line-height:40px;
+	min-height:40px;
+	cursor:default;
+	display:inline-block;
+}
+.profileContent ul{
+	margin-bottom:50px;
+}

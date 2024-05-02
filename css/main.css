@@ -1,0 +1,170 @@
+//profile picture width(180px) height()
+*{
+	margin:0px;
+	padding:0px;
+	outline:none;
+}
+a{
+	text-decoration:none;
+}
+#friendStatus{
+	font:bold 15px corbel;
+	border-radius:2px;
+	max-width:171px;
+	border:1px solid #bbb;
+	background:#fff;
+	cursor:default;
+}
+#friendStatus>div{
+	color:#222;
+	padding:5px;
+	text-align:center;
+}
+#profileName{
+	font:bold 23px Tahoma;
+	margin-top:100px;
+	color:#222;
+	padding-left:20px;
+	width:300px;
+	position:absolute;
+}
+#updateInfo{
+	border:1px solid #aaa;
+	width:100px;
+	background:#eee;
+	position:absolute;
+	margin-top:-90px;
+	margin-left:700px;
+	padding:6px 0 6px 0;
+	border-radius:5px;
+}
+#logOut{
+	float:right;
+	text-align:center;
+	font-size:12px;
+	line-height:20px;
+	padding:7px 15px;
+	border-radius:2px;
+	font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+	width:70px;
+	color:#555;
+	border:1px solid #cccccc;
+	cursor:pointer;
+	background:#fff;
+}
+#coverPic img{
+	border:1px solid #ddd;
+	width:850px;
+	height:295px;
+	border-radius:5px;
+}
+.profilePic{
+	position:relative;
+	background:#fff;
+	margin-top:8px;
+	margin-left:10px;
+	width:166px;
+	height:178px;
+	border-radius:5px;
+	border:1px solid #aaa;
+}
+.profilePic img{
+	padding-left:5px;
+	padding-top:5px;
+	width:156px;
+	height:168px;
+	border-radius:8px;
+}
+#usernameCheck{
+	font:14px corbel;
+	padding-left:10px;
+	color:#00f;
+}
+label input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+.uploadProfilePicLable {
+    border: 1px solid #AAA;
+    display: inline-block;
+}
+#ReqNotificationArea{
+	width:430px;
+	height:500px;
+	padding-top:5px;
+	font:13px arial;
+	color:#444;
+	border:1px solid #aaa;
+}
+#ReqNotificationArea a{
+	font:bold 14px corbel;
+	color:#444;
+}
+#ReqNotificationArea >div{
+	margin-top:5px;
+	border-top:1px solid #aaa;
+}
+#reqSender button{
+	border:1px solid blue;
+}
+#reqSender{
+	height:80px;
+	border-bottom:1px solid #aaa;
+}
+#reqSender img{
+	width:55px;
+	height:55px;
+	border:1px solid #ddd;
+	margin-top:11px;
+	margin-left:10px;
+}
+#reqSenderName{
+	margin-top:30px;
+	padding-left:8px;
+	width:180px;
+	word-wrap:break-word;
+	position:absolute;
+}
+#reqAcceptIgnore{
+	margin-top:28px;
+	height:50px;
+	margin-left:200px;
+	position:absolute;
+}
+#notificationArea{
+	width:430px;
+	height:500px;
+	padding-top:5px;
+	font:13px arial;
+	color:#444;
+	border:1px solid #aaa;
+	position:absolute;
+	margin-top:-507px;
+	margin-left:450px;	
+}
+#notificationArea >div{
+	margin-top:5px;
+	border-top:1px solid #aaa;
+}
+#notificationArea img{
+	width:55px;
+	height:55px;
+	border:1px solid #ddd;
+	margin-top:11px;
+	margin-left:10px;
+}
+#notificationText{
+	height:80px;
+	border-bottom:1px solid #aaa;
+}
+#notificationMsg{
+	padding:20px 7px 0 7px;
+	position:absolute;
+	line-height:18px;
+
+}
+#profileMainBorder{
+	width:850px;
+	margin-left:74px;
+	
+}

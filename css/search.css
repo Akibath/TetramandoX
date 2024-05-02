@@ -1,0 +1,205 @@
+body{
+	background:#edeff4;
+}
+.mainContent{
+	margin-left:125px;
+	margin-top:70px;
+	/width:980px;
+	display:inline-block;
+}
+.searchResults{
+	float:left;
+	width:600px;
+	border-color:#C4CDE0;
+	border-radius:3px;
+	border-width:1px 1px 2px;
+	border-style:solid;
+	background:#fff;
+	display:inline-block;
+}
+.searchResults .title{
+	word-wrap:break-word;
+	padding:20px 20px 10px 10px;
+	border-bottom:1px solid #E9E9E9;
+	font:bold 14px arial;
+	color:#141823;
+	cursor:default;
+}
+.searchResults .content{
+	padding:10px 10px 30px 10px;
+}
+.resultDetails li{
+	margin:0 auto;
+	min-height:82px;
+	padding:10px 0;
+	border-top:1px solid #ddd;
+}
+.resultDetails li .profilePic{
+	background:#0f0;
+	float:left;
+	background:#fff;
+	width:80px;
+	height:80px;
+}
+.resultDetails li .profilePic img{
+	width:80px;
+	height:80px;
+	border:1px solid #eee;
+}
+.resultDetails li .personDetail{
+	float:left;
+	margin-left:10px;
+	width:450px;
+	height:80px;
+}
+.resultDetails li .personDetail .personName{
+	float:left;
+	font:bold 15px Helvetica;
+	height:20px;
+	overflow:hidden;
+	color:#56f;
+}
+.resultDetails li .personDetail .personName a{
+	color:#56f;
+}
+.resultDetails li .personName:hover{
+	text-decoration:underline;
+}
+.resultDetails li .personDetail .personDesc{
+	cursor:default;
+	font-weight:normal;
+	color:#333;
+	font:normal 12px Helvetica;
+	color:#9197a3;
+	overflow:hidden;
+	line-height:17px;
+	height:60px;
+}
+.resultDetails li .personDetail .personDesc>div{
+	margin-bottom:-20px;
+	height:20px;
+	overflow:hidden;
+}
+.showMoreResults{
+	margin:20px auto 0;
+	border-radius:5px;
+	width:545px;
+	border:1px solid transparent;
+	font:bold 15px helvetica;
+	background:#fff;
+	text-align:center;
+	padding:12px 0;
+	color:#0370ea;
+	cursor:pointer;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	height:20px;
+
+}
+.showMoreResults:hover{
+	border:1px solid #0370ea;
+}
+.showMoreResults#notFocus:hover{
+	border:1px solid transparent;
+}
+.showMoreResults#notFocus{
+	height:20px;
+	cursor:default;
+	background-image:url('http://localhost/TetramandoX/img/loading1.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.totalResults{
+	font:normal 14px helvetica;
+	color:#888;
+	margin-bottom:10px;
+	cursor:default;
+}
+.searchTools{
+	/float:left;
+	background:#fff;
+	width:340px;
+	border-radius:5px;
+	border:1px solid #d1d2d3;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.1);
+	margin-left:610px;
+}
+.searchTools .title{
+	text-transform:uppercase;
+	font:bold 13px arial;
+	color:#888;
+	border-bottom:1px solid #ddd;
+	padding:7px 10px;
+	cursor:default;
+}
+.searchTools ul.label{
+	padding:10px 0 0 10px;
+	float:left;
+	cursor:default;
+}
+.searchToolContent{
+	float:left;
+	padding-top:10px;
+}
+.searchTools ul li{
+	font:bold 13px arial;
+	line-height:30px;
+	color:#666;
+	height:30px;
+	/background:#ddd;
+	margin-bottom:1px;
+}
+.searchToolContent li{
+	margin-left:10px;
+	/background:#eee;
+	height:30px;
+	width:240px;
+}
+.searchToolContent li input[type="text"]{
+	color:#666;
+	border:1px solid #d9d9d9;
+	width:225px;
+	height:23px;
+	padding:0 5px;
+}
+.searchToolContent li.age .ageFrom, .searchToolContent li.age .ageTo{
+	width:40px !important;
+	margin-right:7px;
+}
+.radio + label{
+	display:inline-block;
+	margin-left:-23px;
+	padding-left:30px;
+	background:url('http://localhost/TetramandoX/img/radioUnchecked.png') no-repeat 0 0;
+	/line-height:30px;
+}
+.radio:hover + label{
+	background:url('http://localhost/TetramandoX/img/radioUncheckedHover.png') no-repeat 0 0;
+}
+.radio:checked + label{
+	background:url('http://localhost/TetramandoX/img/radioChecked.png') no-repeat 0 0;
+}
+.radio:checked:hover + label{
+	background:url('http://localhost/TetramandoX/img/radioCheckedHover.png') no-repeat 0 0;
+}
+.radio{
+	margin-left:20px;
+}
+.radio:first-child{
+	margin-left:0px;
+}
+.searchTools button{
+	border:1px solid #ccc;
+	cursor:pointer;
+	background:#0370ea;
+	color:#373E4D;
+	font:bold 12px arial;
+	border-radius:3px;
+	margin:20px 10px ;
+	line-height:25px;
+	width:70px;
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#e6e6e6),color-stop(100%,#fff));
+	background-image:-webkit-linear-gradient(#e6e6e6,#fff);
+	background-image:-moz-linear-gradient(#fff,#f6f7f8);
+	background-image:-ms-linear-gradient(top,#e6e6e6,#fff);
+	background-image:-o-linear-gradient(top,#e6e6e6,#fff);
+}

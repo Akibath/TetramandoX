@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?localhost [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ http://localhost/TetramandoX/img/hotlink.png [NC,R,L]
